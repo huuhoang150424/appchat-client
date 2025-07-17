@@ -1,1 +1,1 @@
-export const API="http://localhost:3000/"
+export const API="https://appchat-server-z21k.onrender.com/"

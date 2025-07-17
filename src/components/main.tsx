@@ -97,7 +97,7 @@ const Main = ({ user, conversationId }: Props) => {
 			createdAt: new Date().toISOString(), 
 		};
 		try {
-			await sendMessage(conversationId, {
+			await sendMessage(conversationId ?? "", {
 				senderId: userSend._id,
 				content: message,
 				receiverId: user._id,

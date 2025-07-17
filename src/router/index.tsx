@@ -1,4 +1,4 @@
-import {router} from "../constants/interface"
+
 import NotfoundScreen from "../screen/notfoundScreen"
 import Login from "../screen/loginScreen"
 import Register from "../screen/registerScreen"

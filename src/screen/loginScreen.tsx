@@ -4,7 +4,7 @@ import * as Yup from "yup";
 import { useNavigate } from "react-router-dom"
 import { useDispatch, useSelector } from "react-redux"
 import { useEffect } from "react"
-import { selectIsAuthenticated, selectIsError, selectIsLoading, selectMessage, selectToken } from "../redux/reducer/authReducer"
+import { selectIsAuthenticated, selectIsError, selectIsLoading, selectMessage } from "../redux/reducer/authReducer"
 import Loading from "../components/loading/loading"
 import { signUser } from "../redux/action/auth";
 import { AppDispatch } from "../redux/store";
